@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Malia Client | Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .download-btn {
+        background-color: #3498db;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      .download-btn:hover {
+        background-color: #2980b9;
+      }
+
+      body {
+        font-family: 'Arial', sans-serif;
+      }
+
+      .bg-zinc-800 {
+        background-color: #1a202c;
+      }
+    </style>
+  </head>
+  <body class="bg-zinc-800 px-20 py-32 text-white">
+    <div class="bg-zinc-900 flex">
+      <div class="w-2/5 flex items-center flex-col border-r border-neutral-600">
+        <img class="w-3/5 mt-4" src="./img/avatar.png" alt="Malia Client" />
+        <div class="bg-zinc-900 w-full px-8 py-4">
+          <div class="flex justify-center text-3xl">Malia Client</div>
+          <div class="flex justify-center font-medium text-yellow-400">
+            Minecraft Client
+          </div>
+        </div>
+        <div class="w-full px-8 py-4">
+          <div class="flex py-2 border-neutral-400 justify-between border-b">
+            Seit wann gibt es uns: <span class="text-neutral-400">18.1.2024</span>
+          </div>
+          <div class="flex py-2 border-neutral-400 justify-between border-b">
+          </div>
+        </div>
+      </div>
+      <div class="w-3/5 p-4">
+        <h1 class="text-3xl">Herzlich willkommen</h1>
+        <p class="mt-4">
+          Ein Text...
+        </p>
+        <br>
+        <br>
+        <h1 class="text-3xl">Download</h1>
+        <p class="mt-4">
+          <a href="MaliaClientInstaller.zip" class="download-btn" download>Download</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
